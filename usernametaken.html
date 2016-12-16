@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>username already taken</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="mycss/loginstyle.css">
+	
+    <style>
+    
+    	h1{
+		
+			color : #f44336;
+		
+		}
+    </style>
+    
+    
+  </head>
+  
+  <body>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+	
+	<h1 align="center">The username you chose already exists, try again!</h1>
+	
+	<form action="register.php" method="post">
+  		
+	  <div class="imgcontainer">
+	    <img src="img/register.png" alt="Avatar" style="width:250px;height:250px;" class="avatar">
+	  </div>
+
+  		<div class="container">
+    		<label><b>Username</b></label>
+     			<input type="text" placeholder="Enter Username" name="uname" required>
+
+		  	<label><b>Password</b></label>
+   		  		<input type="password" placeholder="Enter Password" name="psw" required>
+   		  		
+   		  	<label><b>First Name</b></label>
+		  		<input type="text" placeholder="First Name" name="fname" required>
+     			
+     		<label><b>Last Name</b></label>
+		 		 <input type="text" placeholder="Last Name" name="lname" required>
+     			
+     		<label><b>Email Address</b></label>
+		 		 <input type="email" placeholder="Email Address" name="email">
+     			
+   		  	<label><b>Phone</b></label>
+     			<input type="tel" placeholder="Phone" name="phone">
+     			
+     		<label><b>Address</b></label>
+     			<input type="text" placeholder="Address" name="address">
+     			
+     		<label><b>City</b></label>
+		  		<input type="text" placeholder="City" name="city">
+     		
+     		<label><b>Country</b></label>
+     			<input type="text" placeholder="Country" name="country">
+     										
+			<label><b>Postal Code</b></label>
+		  		<input type="text" placeholder="Postal Code" name="postalcode">
+     			
+     		<label><b>Date of Birth</b></label>
+     			<input type="date" placeholder="Date of Birth" name="dob">
+     				
+		  	<button type="submit" class="submitbtn">Submit</button>
+  		</div>
+
+  		<div class="container" style="background-color:#f1f1f1">
+    		<button type="button" class="cancelbtn">Cancel</button>
+  		</div>
+  </form>
+	
+  </body>
+  
+</html>
